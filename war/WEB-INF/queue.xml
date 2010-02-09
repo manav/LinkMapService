@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<queue-entries>
+  <queue> 
+    <name>updateTweetsThree</name> 
+    <rate>1/m</rate> 
+  </queue>
+  <queue> 
+    <name>updateCacheFour</name> 
+    <rate>1/m</rate> 
+  </queue> 
+  <queue> 
+    <name>addUserThree</name> 
+    <rate>1/m</rate> 
+  </queue>
+    <queue> 
+    <name>updateLatestTweetCache</name> 
+    <rate>1/m</rate> 
+  </queue> 
+</queue-entries> 

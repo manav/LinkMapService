@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <!-- Fetch and persist url tweets from twitter api -->
+    <cron>
+    <url>/cron/queue/urltweet</url>
+    <description>Fetch and persist url tweets from twitter api - every 30 minutes</description>
+    <schedule>every 30 minutes</schedule>
+  </cron>
+  
+  <!-- update cache with latest url tweets from DB -->
+  <cron>
+    <url>/cron/cache/latest/urltweet</url>
+    <description>update cache with latest url tweets from DB - every 30 minutes</description>
+    <schedule>every 30 minutes</schedule>
+  </cron>
+  
+  <!-- update cache with old url tweets from DB -->
+  <cron>
+    <url>/cron/cache/urltweet</url>
+    <description>update cache with old url tweets from DB- every 12 hours</description>
+    <schedule>every 12 hours</schedule>
+    <timezone>America/New_York</timezone>
+  </cron>
+  
+  <!-- fetch and persist user from twitter api -->
+    <cron>
+    <url>/cron/queue/user</url>
+    <description>fetch and persist user from twitter api- every 12 hours</description>
+    <schedule>every 12 hours</schedule>
+    <timezone>America/New_York</timezone>
+  </cron>
+  
+</cronentries>

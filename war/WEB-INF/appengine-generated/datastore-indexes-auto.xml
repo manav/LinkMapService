@@ -1,0 +1,14 @@
+<!-- Indices written at Thu, 8 Oct 2009 17:07:33 UTC -->
+
+<datastore-indexes>
+
+    <!-- Used 137 times in query history -->
+    <datastore-index kind="UrlTweet" ancestor="false" source="auto">
+        <property name="createdAtDay" direction="asc"/>
+        <property name="createdAtMonth" direction="asc"/>
+        <property name="createdAtYear" direction="asc"/>
+        <property name="redundantUserId" direction="asc"/>
+        <property name="statusId" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>

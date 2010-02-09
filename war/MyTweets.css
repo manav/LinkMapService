@@ -1,0 +1,47 @@
+
+.w-row{
+float:left;
+width: 100%;
+}
+
+.align-row{
+  clear: both;
+}
+
+/*    ******************Tweet Deck Container Widget********************************    */
+
+.tweet-tab-panel{
+width: 450px;
+min-height: 400px;
+}
+
+/* This is to hide the bottom panel with sharp corners*/
+.tweet-tab-panel .gwt-TabPanelBottom{
+  border-color: #BBBBBB;
+  border-style: none;
+  border-width: 0px 0px 0px;
+  padding: 0%;
+  margin:0%;
+}
+
+
+.tweet-ordered-list{
+	margin: 0%;
+	padding: 0%;
+	width: 450px;
+	height: 400px;
+}
+
+.tweet-ordered-list-item{
+   border-bottom:thin dotted;
+   border-color:black;
+   padding: 8px;
+   width: 434px;
+}
+
+.pagination-row{
+   border-bottom:thin dotted;
+   border-color:black;
+   width: 450px;
+   
+}
